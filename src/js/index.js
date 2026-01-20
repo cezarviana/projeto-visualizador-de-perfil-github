@@ -37,8 +37,18 @@ btnSearch.addEventListener('click', async () => {
                 <div class="profile-info">
                     <h2>${userData.name || 'Nome não disponível'}</h2>
                     <p>${userData.bio || 'Não possui bio cadastrada 😢'}</p>
-                    <p>Seguidores: ${userData.followers}</p>
-                    <p>Seguindo: ${userData.following}</p>
+                    </div>
+                    </div>
+                    
+                <div class="profile-counters">
+                    <div class="followers">
+                        <h4>🙂 Seguidores</h4>
+                        <span>${userData.followers}</span>
+                    </div>
+                    <div class="following">
+                        <h4>🙂 Seguindo</h4>
+                        <span>${userData.following}</span>
+                    </div>
                 </div>
             </div>
             `
