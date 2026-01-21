@@ -1,4 +1,7 @@
-export function renderProfile(userData, container) {
+export function renderProfile(userData, userRepos, container) {
+
+    const repositoriesHTML = userRepos.map(repo => `batata`);
+
     container.innerHTML = `
             <div class="profile-card">
                 <img src="${userData.avatar_url}" alt="Avatar de ${userData.name}" class="profile-avatar">
@@ -19,5 +22,7 @@ export function renderProfile(userData, container) {
                     </div>
                 </div>
             </div>
-            `
+
+            ${repositoriesHTML}
+            `;
 }
