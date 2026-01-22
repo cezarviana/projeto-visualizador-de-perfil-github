@@ -1,6 +1,18 @@
 export function renderProfile(userData, userRepos, container) {
 
-    const repositoriesHTML = userRepos.map(repo => `batata`);
+    const repositoriesHTML = userRepos && userRepos.length > 0 ? userRepos.map(repo => `
+        <a href="${repo.html_url}" target="_blank">
+            <div class="repository-card">
+                <h3>${repo.name}</h3>
+                <div class="repository-info">
+                    <span>⭐ Stars: ${repo.stargazers_count}</span>
+                    <span>🍴 Forks: ${repo.forks_count}</span>
+                    <span>👀 Watchers: ${repo.watchers_count}</span>
+                    <span>💻 Language: ${repo.language || 'N/A'}</span>
+                </div>
+            </div>
+         </a>
+        `).join('') : '<p>Este usuário não possui repositórios públicos.</p>';
 
     container.innerHTML = `
             <div class="profile-card">
@@ -23,6 +35,11 @@ export function renderProfile(userData, userRepos, container) {
                 </div>
             </div>
 
-            ${repositoriesHTML}
+            <div class="profile-repositories">
+                <h2>Repositórios Recentes</h2>
+                <div class="repositories">
+                   ${repositoriesHTML}
+                </div>
+            </div>
             `;
 }
