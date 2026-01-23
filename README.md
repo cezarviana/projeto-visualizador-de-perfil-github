@@ -5,9 +5,9 @@
 
 O projeto foi desenvolvido para praticar a manipulação do DOM com JavaScript, o consumo de APIs externas e a criação de uma interface responsiva e funcional.
 
-Repositório do projeto: [Visualizador de Perfil do GitHub Repositório](https://github.com/seu-usuario/visualizador-de-perfil-github) (substitua pelo link real)
+Repositório do projeto: [Visualizador de Perfil do GitHub Repositório](https://github.com/cezarviana/projeto-visualizador-de-perfil-github)
 
-Acesse o site aqui: [Visualizador de Perfil do GitHub](https://seu-usuario.github.io/visualizador-de-perfil-github/) (substitua pelo link real)
+Acesse o site aqui: [Visualizador de Perfil do GitHub](https://cezarviana.github.io/projeto-visualizador-de-perfil-github/)
 
 ## 🔎 Funcionalidades
 - **Busca de Usuários:** Permite buscar usuários do GitHub pelo nome de usuário.
