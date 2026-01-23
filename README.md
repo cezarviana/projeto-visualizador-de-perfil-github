@@ -33,9 +33,9 @@ Acesse o site aqui: [Visualizador de Perfil do GitHub](https://cezarviana.github
 
 ## 🎨 Imagens do projeto
 <div align="center">
-<img src="./src/images/screenshot-desktop.png" style="height: 300px; text-align: center;"> 
+<img src="./src/images/screenshot-desktop.gif" style="height: 300px; text-align: center;"> 
 <br><br>
-<img src="./src/images/screenshot-mobile.png" style="height: 300px; text-align: center;"> <br>
+<img src="./src/images/screenshot-mobile.gif" style="height: 300px; text-align: center;"> <br>
 </div>
 
 ## 💡 Decisões do projeto
